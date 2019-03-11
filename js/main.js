@@ -1,4 +1,4 @@
-var vav_1 = new Vue ({
+var vav_1 = new Vue ({//1
     el: '#nav',
     data: {
         head_img1: './img/1.jpg',
