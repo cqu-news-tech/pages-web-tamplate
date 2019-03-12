@@ -1,0 +1,91 @@
+*{margin: 0;padding:0;}
+ul>li{list-style: none}
+.container{
+    width: 100vw;
+    text-align: center;
+}
+.container .nav{
+    width: 70vw;
+    height: 5vh;
+    margin: 0 auto 2vh;
+    border: 1px solid;
+    line-height: 5vh;
+}
+.container .banner{
+    width: 70vw;
+    height: 16vh;
+    margin: 0 auto 2vh;
+    border: 1px solid;
+    line-height: 16vh;
+}
+.container .body-container{
+    width: calc(70vw - 1.5rem);
+    margin: 0 auto 2vh;
+    padding: 0.75rem;
+    border: 1px solid;
+}
+.container .body-container > *{
+    float: left;
+}
+.container .body-container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .body-container .side-bar{
+    width: 15vw;
+    height: 60vh;
+    margin: 0 1rem 0 0;
+    border: 1px solid;
+    line-height: 60vh;
+}
+.container .body-container .content{
+    width: 52vw;
+}
+.container .body-container .content .section{
+    position: relative;
+    height: 20vh;
+    border: 1px solid;
+    margin: 0 0 2vh;
+    line-height: 20vh;
+}
+.container .body-container .content .section .pic{
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    width: 15vw;
+    height: 18vh;
+    border: 1px solid;
+}
+.container .body-container .content .section span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 1em;
+}
+.container .body-container .content .pager-group{
+    width: 17vw;
+    margin: 10vh auto 5vh;
+}
+.container .body-container .content .pager-group ul > *{
+    float: left;
+}
+.container .body-container .content .pager-group::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .body-container .content .pager-group li{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem;
+    border: 1px solid;
+    line-height: 2rem;
+}
+.container .footer{
+    width: 70vw;
+    height: 20vh;
+    margin: 0 auto;
+    border: 1px solid;
+    line-height: 20vh;
+}
