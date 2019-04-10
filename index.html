@@ -6,6 +6,7 @@
     <!-- 引入样式 -->
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
     <!-- 引入组件库 -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vue.min.js"></script>
     <title>tamplate</title>
@@ -14,61 +15,154 @@
  
 </head>
 <body>
-    <div class="container" style="width: 70vw; height: 100vw; background-color: rgb(26, 224, 26);">
-        <template>
-            <el-carousel :interval="4000" type="card" height="200px">
-                <el-carousel-item v-for="item in 6" :key="item">
-                    <h3>{{ item }}</h3>
-                </el-carousel-item>
-            </el-carousel>
-        </template>
+    <div class="container" style="width: 100vw; height: auto; background-color: #e5ffb4;">
 
+        <div class="header"><!-- 导航 -->
+                <a href="http://news.cqu.edu.cn/newsv2/" target="_blank">
+                    <img src="http://news.cqu.edu.cn/newsv2/statics/newsui/images/cqunews-logo.png" alt="logo" style="widows: 80px;">
+                </a>
+                <p>
+                    2019年重庆大学春季运动会
+                </p>
+        </div>
+
+
+
+
+        <div class="box"><!-- 轮播图 -->
+
+            <div class="list">
+                <ul>
+                    <li class="p7"><a href="#"><img src="img/1.png" alt="" /></a></li>
+                    <li class="p6"><a href="#"><img src="img/2.png" alt="" /></a></li>
+                    <li class="p5"><a href="#"><img src="img/3.png" alt="" /></a></li>
+                    <li class="p4"><a href="#"><img src="img/44.jpg" alt="" /></a></li>
+                    <li class="p3"><a href="#"><img src="img/55.jpg" alt="" /></a></li>
+                    <li class="p2"><a href="#"><img src="img/66.jpg" alt="" /></a></li>
+                    <li class="p1"><a href="#"><img src="img/77.jpg" alt="" /></a></li>
+                </ul>
+            </div>
+            
+            <a href="javascript:;" class="prev btn"><</a>
+            <a href="javascript:;" class="next btn">></a>
+        
+            <div class="buttons">
+                <a href="javascript:;"><span class="blue"></span></a>
+                <a href="javascript:;"><span></span></a>
+                <a href="javascript:;"><span></span></a>
+                <a href="javascript:;"><span></span></a>
+                <a href="javascript:;"><span></span></a>
+                <a href="javascript:;"><span></span></a>
+                <a href="javascript:;"><span></span></a>
+            </div>
+        </div>
               
 
 
         <br/>
-        <div id="elements"><!-- 左侧元素 -->
-        
-        </div>
+
         <div id="nav"><!-- 右侧导航 -->
             <div id="nav_1">
-                <a :href="href1">
+                <a :href="href1"></a>
                     <div class="head_img">
                         <img :src="head_img1" alt="图片加载中">
                     </div>
-                    <h1 class="Title">{{ title1 }}</h1>
-                    <p class="more">More</p>
                 </a>
             </div>
+
             <div id="nav_1">
-                <a :href="href1">
+                <a :href="href1"></a>
                     <div class="head_img">
-                        <img :src="head_img2" alt="图片加载中">
+                        <img :src="head_img1" alt="图片加载中">
                     </div>
-                    <h1 class="Title">{{ title2 }}</h1>
-                    <p class="more">More</p>
                 </a>
             </div>
+
             <div id="nav_1">
-                <a :href="href1">
+                <a :href="href1"></a>
                     <div class="head_img">
-                        <img :src="head_img3" alt="图片加载中">
+                        <img :src="head_img1" alt="图片加载中">
                     </div>
-                    <h1 class="Title">{{ title3 }}</h1>
-                    <p class="more">More</p>
                 </a>
             </div>
+
             <div id="nav_1">
-                <a :href="href1">
+                <a :href="href1"></a>
                     <div class="head_img">
-                        <img :src="head_img4" alt="图片加载中">
+                        <img :src="head_img1" alt="图片加载中">
                     </div>
-                    <h1 class="Title">{{ title4 }}</h1>
-                    <p class="more">More</p>
                 </a>
             </div>
-            <el-pagination background layout="prev, pager, next" :total="70"></el-pagination>
+
+            <div id="nav_1">
+                <a :href="href1"></a>
+                    <div class="head_img">
+                        <img :src="head_img1" alt="图片加载中">
+                    </div>
+                </a>
+            </div>
+
+            <div id="nav_1">
+                <a :href="href1"></a>
+                    <div class="head_img">
+                        <img :src="head_img1" alt="图片加载中">
+                    </div>
+                </a>
+            </div>
+
+            <div id="nav_1">
+                <a :href="href1"></a>
+                    <div class="head_img">
+                        <img :src="head_img1" alt="图片加载中">
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
         </div>
+
+
+
+        <div class="elements">
+            <div class="element_1">
+                <p>1</p>
+            </div>
+            <div class="element_1">
+                <p>2</p>
+            </div>
+            <div class="element_1">
+                <p>3</p>
+            </div>
+            <div class="element_1">
+                <p>4</p>
+            </div>
+            <div class="element_1">
+                <p>5</p>
+            </div>
+            <div class="element_1">
+                <p>6</p>
+            </div>
+            <div class="element_1">
+                <p>7</p>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p class="shide">主办单位： 宣传部 党委办公室 校长办公室 信网办 <br class="bshow">协办单位：虎溪校区 国际处 图书馆 团委</p>
+            <br>
+            <p class="shide">版权所有 重庆大学 重庆大学新闻网 <br class="bshow">任何建议及意见请 联系我们</p>
+            <br>
+            <p class="bshow">COPYRIGHT © 2006-2016 CQU NEWS. <br class="bshow">ALL RIGHT RESERVED.</p>
+            <br>
+            <p class="bshow">EMAIL：CQUNEWS QQ：267270280 <br class="bshow">TEl：(023)65102311 65102397  
+            <p class="bshow">FAX：(023)65102311</p>
+        </div>
+
+
     </div>
 
 
