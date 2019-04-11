@@ -1,18 +1,20 @@
 var vav_1 = new Vue ({
     el: '#nav',
     data: {
-        head_img1: 'http://news.cqu.edu.cn/newsv2/uploadfile/2019/0313/20190313101940823.jpeg',
-        title1: 'XXXXX',
-        href1: '#',//以上第一栏放图、标题、链接
-        head_img2: 'http://news.cqu.edu.cn/newsv2/uploadfile/2019/0313/20190313101940823.jpeg',
-        title2: 'XXXXX',
-        href2: '#',//以上第二栏放图、标题、链接
-        head_img3: 'http://news.cqu.edu.cn/newsv2/uploadfile/2019/0313/20190313101940823.jpeg',
-        title3: 'XXXXX',
-        href3: '#',//以上第三栏放图、标题、链接
-        head_img4: 'http://news.cqu.edu.cn/newsv2/uploadfile/2019/0313/20190313101940823.jpeg',
-        title4: 'XXXXX',
-        href4: '#',//以上第四栏放图、标题、链接
+        head_img1: './img/img_1.png',
+        href1: 'https://cn.bing.com/?mkt=zh-CN',//以上第一栏放图、链接
+        head_img2: './img/img_2.png',
+        href2: '#',//以上第二栏放图、链接
+        head_img3: './img/img_3.png',
+        href3: '#',//以上第三栏放图、链接
+        head_img4: './img/img_4.png',
+		href4: '#',//以上第四栏放图、链接
+		head_img5: './img/img_5.png',
+		href5: '#',
+		head_img6: './img/img_6.png',
+		href6: '#',
+		head_img7: './img/img_7.png',
+		href7: '#',
     }
 });
 
