@@ -35,7 +35,7 @@ a{
 
 .elements{
     position: fixed;
-    top: 40%;
+    top: 50%;
     width: 10vw;
     height: auto;
 }
@@ -118,30 +118,30 @@ a{
 
 
 .box{
-	margin-top: 4.167vw;
+	margin-top: 5.556vw;
 	width: 100%;
-	height: 17.708vw;
+	height: 23.61vw;
 
 	position: relative;
 }
 
 .list{
-	width: 62.5vw;
-	height: 15.625vw;
+	width:83.33vw;
+	height:20.833vw;
 	overflow: hidden;
 	position: absolute;
 	left: 50%;
-	margin-left: -31.25vw;
+	margin-left: -41.667vw;
 }
 
 .btn{
 	position: absolute;
 	top: 50%;
-	margin-top: -2.604vw;
-	width: 3.125vw;
-	height: 5.208vw;
-	line-height: 5.208vw;
-	font-size: 1.56vw;
+	margin-top: -3.472vw;
+	width: 4.167vw;
+	height: 6.944vw;
+	line-height: 6.944vw;
+	font-size: 2.08vw;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -161,13 +161,13 @@ li{
 	transition: all 0.3s ease-out;
 }
 img{
-	width: 39.115vw;
-	height: 15.625vw;
+	width: 52.153vw;
+	height: 20.833vw;
 	border:none;
 	float: left;
 }
 .p1{
-	transform:translate3d(-11.667vw,0,0) scale(0.81);
+	transform:translate3d(-15.556vw,0,0) scale(0.81);
 }
 .p2{
 	transform:translate3d(0px,0,0) scale(0.81);
@@ -176,47 +176,47 @@ img{
 	z-index: 2;
 }
 .p3{
-	transform:translate3d(11.667vw,0,0) scale(1);
+	transform:translate3d(15.556vw,0,0) scale(1);
 	z-index: 3;
 	opacity: 1;
 }
 .p4{
-	transform:translate3d(23.385vw,0,0) scale(0.81);
+	transform:translate3d(31.18vw,0,0) scale(0.81);
 	transform-origin:100% 50%;
 	opacity: 0.8;
 	z-index: 2;
 }
 .p5{
-	transform:translate3d(35vw,0,0) scale(0.81);
-}
-.p6{
 	transform:translate3d(46.667vw,0,0) scale(0.81);
 }
+.p6{
+	transform:translate3d(62.223vw,0,0) scale(0.81);
+}
 .p7{
-	transform:translate3d(58.333vw,0,0) scale(0.81);
+	transform:translate3d(77.777vw,0,0) scale(0.81);
 }
 
 .buttons{
 	position: absolute;
-	width: 62.5vw;
-	height: 1.56vw;
+	width: 83.333vw;
+	height: 2.08vw;
 	bottom: 0;
 	left: 50%;
-	margin-left: -31.25vw;
+	margin-left: -41.667vw;
 	text-align: center;
-	padding-top: 0.52vw;
+	padding-top: 0.693vw;
 }
 .buttons a{
 	display: inline-block;
-	width: 1.823vw;
-	height: 0.26vw;
-	padding-top: 0.21vw;
+	width: 2.43vw;
+	height: 0.347vw;
+	padding-top: 0.28vw;
 	cursor: pointer;
 }
 span{
 	display: block;
-	width: 1.823vw;
-	height: 0.052vw;
+	width: 2.43vw;
+	height: 0.0693vw;
 	background: red;
 }
 .blue{
